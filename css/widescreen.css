@@ -4,18 +4,20 @@
       width: 100%;
       display: block;
       background-color: #0b5893;
-      height: 120px;
-      top: 0px;
+      height: 100px;
+      padding-top: 10px;
+      padding-bottom: 40px;
+
 }
 
 .sitelogo-field {
-  padding-top: 12px
+  padding-top: 12px;
 }
 
 .sitetitle h1 {
   color: white;
   font-family: 'Roboto Condensed';
-  font-size: 32px;
+  font-size: 35px;
   letter-spacing: .01em;
   font-weight: 700;
   margin-left: 53px;
@@ -44,6 +46,7 @@ p {
 
 body h2 {
   font-size: 22px;
+  font-weight: 400;
     font-family: 'Roboto Condensed';
 }
 
@@ -55,7 +58,7 @@ body h3 {
 
 
 p a {
-  color: inherit;
+  color: #007AFC;
   text-decoration: none;
   text-decoration-color: #007AFC;
 }
@@ -66,6 +69,9 @@ p a:hover { color: #007AFC;
 }
 
 .content a {
+  color: #0b5893;
+  text-decoration: none;
+  text-decoration-color: #007AFC;
 }
 
 .content a:hover {
@@ -113,48 +119,43 @@ color:#007AFC;
   font-family: 'Open Sans', serif;
 }
 
+.nonpost-content h1 {
+  font-family: 'Roboto Condensed';
+  font-weight: 400;
+  font-size: 30px;
+
+}
+
 .post-content {
   padding: 17px 60px 40px 20px;
   margin-left: 36px;
 }
 
 .post-content p {
-  font-family: 'PT Serif', serif;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.post-content h1 {
+  font-family: 'Roboto Condensed';
+  font-weight: 400;
+  font-size: 30px;
+
 }
 
 .post-title {
   font-size: 30px;
   letter-spacing: 0.005rem;
   font-weight: 400;
+  font-family: 'Roboto Condensed';
   line-height: 37px;
   max-width: 480px;
 }
 
 .post-title a {
-   color: #007AFC;
+   color: black;
    text-decoration: none;
   }
 
-
-.read-more {
-  font-size: .9rem;
-  font-weight: normal;
-}
-
-.read-more a {
- color:#000000;
- text-decoration: none;
-}
-
-.read-more a:hover {
-color:#1E90FF;
-text-decoration: none;
-}
-
-.read-more a:active {
- color:#417dc1;
- text-decoration: none;
-}
 
 .archive {
   line-height: 30px;
@@ -421,3 +422,40 @@ text-decoration: none;
       max-width: 100%;
     }
   }
+
+
+table {
+  font-family: 'Open Sans';
+}
+
+table {
+border-collapse: collapse;
+width: 90%;
+}
+td {
+ border-top: 1px solid #ccc;
+ border-bottom: 1px solid #ccc;
+ padding: 0.6rem;
+ text-align: left;
+ width: 10px;
+}
+
+.table a {
+  color: #0b5893;
+  text-decoration: none;
+  text-decoration-color: #0b5893;
+}
+
+.table a:hover {
+color:#0b5893;
+}
+
+.table a:active {
+ color:#007AFC;
+ text-decoration: none;
+}
+
+.table a:visited {
+ color:#007AFC;
+ text-decoration: none;
+}
