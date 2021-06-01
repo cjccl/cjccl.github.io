@@ -1,0 +1,321 @@
+@import 'fonts.css';
+
+body {
+  font-family: 'Bitter'; serif;
+  max-width: 850px;
+  line-height: 27px;
+}
+
+.hdsection {
+      width: 100%;
+      background-color: white;
+      height: 54px;
+      text-align: left;
+      border-bottom: solid;
+      border-color: #d3d3d3;
+      border-width: thin;
+}
+
+.sitelogo-field {
+  padding-top: 9px
+}
+
+.first-object {
+  float: left;
+}
+
+.sitelogo {
+  font-size: 20px;
+  font-weight: 400;
+  padding-top: 4px;
+  padding-left: 6px;
+}
+
+.sitelogo-pic img {
+width:28px;
+height:28px;
+padding-top: 2px;
+padding-left: 2px;
+padding-right: 3px;
+}
+
+.greytext {
+  color: #808080;
+  font-size: 20px;
+}
+
+.sitelogo a {
+ color: rgba(0, 0, 0, .8);
+ text-decoration: none;
+}
+
+.sitelogo a:hover {
+ color:#000000;
+text-decoration: none;
+}
+
+.sitelogo a:active {
+ color:#000000;
+ text-decoration: none;
+}
+
+
+@media screen and (max-width: 440px)
+  h1,h2,h3 {
+    font-size: .9rem;
+  }
+
+.sidenav {
+  float: left;
+  line-height: 29px;
+  padding: 27px 9px;
+  font-weight: 400;
+  font-size: 13px;
+  font-family: 'Roboto', sans-serif;
+  color: rgba(0, 0, 0, 0.8);
+}
+
+.sidenav a {
+color: rgba(0, 0, 0, 0.8);
+text-decoration: none;
+}
+
+.sidenav a:hover {
+color: grey;
+text-decoration: none;
+}
+
+.sidenav a:active {
+color:#000000;
+text-decoration: none;
+}
+
+
+p {
+  color: rgba(0, 0, 0, 0.8);
+  line-height: 28px;
+  font-size: 18px;
+  }
+
+p a {
+    color: inherit;
+    text-decoration: underline;
+    text-decoration-thickness: 2px;
+    text-decoration-color: #007AFC;
+  }
+
+p a:hover { color: #007AFC;
+    text-decoration: underline;
+    text-decoration-thickness: 2px;
+    text-decoration-color: #007AFC;
+  }
+
+.content a {
+}
+
+.content a:hover {
+color:#007AFC;
+text-decoration: none;
+}
+
+.content a:active {
+ color:#007AFC;
+ text-decoration: none;
+}
+
+.content img[src*="image"] {
+  border-radius: 10px;
+  float: left;
+}
+
+.content img[src*="image"] {
+  max-width: 80%
+}
+
+.content img[src*="image"] {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 40px;
+}
+
+.content img[src*="image"]  {
+  box-shadow: 0 0 10px .2px grey;
+  }
+
+.post-date {
+  font-size: .8rem;
+  font-weight: normal;
+  color: grey;
+}
+
+.nonpost-content {
+  padding: 12px 30px 40px 15px;
+  margin-left: 86px;
+}
+
+.nonpost-content p {
+  font-family: 'PT Serif', serif;
+}
+
+.nonpost-content h3 {
+  font-size: 19px;
+  font-weight: 500;
+  font-style: bold;
+  font-family: 'Bitter', serif;
+  color: grey;
+}
+
+.post-content {
+  padding: 30px 30px 40px 15px;
+  margin-left: 86px;
+}
+
+.post-content p {
+  font-family: 'PT Serif', serif;
+}
+
+.post-title {
+  font-size: 1.38rem;
+  font-weight: 400;
+}
+
+.post-title a {
+   color: #007AFC;
+   text-decoration: none;
+  }
+
+.post-content h3 {
+  font-size: 19px;
+  font-weight: 500;
+  font-style: bold;
+  font-family: 'Bitter', serif;
+  color: grey;
+}
+
+.read-more {
+  font-size: .9rem;
+  font-weight: normal;
+}
+
+.read-more a {
+ color:#000000;
+ text-decoration: none;
+}
+
+.read-more a:hover {
+color:#417dc1;
+text-decoration: none;
+}
+
+.read-more a:active {
+ color:#417dc1;
+ text-decoration: none;
+}
+
+.archive {
+  line-height: 30px;
+  padding: 14px 30px 40px 15px;
+  margin-left: 86px;
+}
+
+.archive a {
+   color: #007AFC;
+   text-decoration: none;
+  }
+
+.archive-page-title {
+  font-size: 1.2rem;
+  font-weight: 400;
+}
+
+.archive__group-year-header {
+  font-size: 1rem;
+  font-weight: 400;
+
+}
+
+.archive__group-month-header {
+    font-size: 1rem;
+    font-weight: 400;
+    color: grey;
+}
+
+.archive__post-title {
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 22px;
+}
+
+.archive__post-date {
+    font-size: .7rem;
+}
+
+.archive__post-read-time {
+    font-size: .7rem;
+}
+
+blockquote {
+  width:90%;
+  margin:20px auto;
+  padding:0px 30px 0px 12px;
+  border-left:6px solid #e5e4e2;
+  line-height:27px;
+  position: relative;
+}
+
+.page-nav a {
+ color:grey;
+ text-decoration: none;
+}
+
+.page-nav a:hover {
+color:#417dc1;
+text-decoration: none;
+}
+
+.page-nav a:active {
+ color:#417dc1;
+ text-decoration: none;
+}
+
+.readings {
+  font-weight: 700;
+}
+
+.float-container {
+    padding-top: 0px;
+}
+
+.float-child1 {
+    width: 100%;
+    float: left;
+    padding: 0px;
+}
+
+.float-child2 {
+    width: 100%;
+    float: left;
+    padding: 0px;
+}
+
+.canon {
+  float: left;
+}
+
+.readings img[src*="image"] {
+  border-radius: 0px;
+  margin-bottom: 20px;
+}
+
+.readings img[src*="image"] {
+  max-width: 60%;
+  }
+
+.readings img[src*="image"] {
+  float: left;
+}
+
+.readings img[src*="image"]  {
+  box-shadow: 0 0 5px .2px grey;
+  }
