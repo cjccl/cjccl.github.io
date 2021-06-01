@@ -143,7 +143,7 @@ color:#007AFC;
 }
 
 .post-title {
-  font-size: 30px;
+  font-size: 24px;
   letter-spacing: 0.005rem;
   font-weight: 400;
   font-family: 'Roboto Condensed';
@@ -152,7 +152,7 @@ color:#007AFC;
 }
 
 .post-title a {
-   color: black;
+    color: #0b5893;
    text-decoration: none;
   }
 
