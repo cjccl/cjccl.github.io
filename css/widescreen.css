@@ -1,5 +1,11 @@
 @import 'fonts.css';
 
+body{
+   min-width:1000px;
+   width: auto !important;
+   width:1000px;
+}
+
 .hdsection {
       width: 100%;
       display: block;
@@ -17,7 +23,7 @@
 .sitetitle h1 {
   color: white;
   font-family: 'Roboto Condensed';
-  font-size: 32px;
+  font-size: 34px;
   letter-spacing: .01em;
   font-weight: 700;
   margin-left: 53px;
@@ -83,26 +89,6 @@ color:#007AFC;
  text-decoration: none;
 }
 
-.content img[src*="image"] {
-  border-radius: 10px;
-  float: left;
-}
-
-.content img[src*="image"] {
-  max-width: 50%;
-}
-
-.content img[src*="image"] {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  margin-bottom: 70px;
-}
-
-.content img[src*="image"]  {
-  box-shadow: 0 0 10px .2px grey;
-  }
-
 .nonpost-content {
   padding: 17px 80px 40px 20px;
   max-width: 700px;
@@ -137,7 +123,7 @@ color:#007AFC;
 }
 
 .post-title {
-  font-size: 24px;
+  font-size: 22px;
   letter-spacing: 0.005rem;
   font-weight: 400;
   font-family: 'Roboto Condensed';
@@ -422,12 +408,11 @@ text-decoration: none;
 table {
   font-family: 'Open Sans';
   font-size: 15px;
+  border-collapse: collapse;
+  width: 70%;
+  min-width: 300px;
 }
 
-table {
-border-collapse: collapse;
-width: 90%;
-}
 td {
  border-top: 1px solid #ccc;
  border-bottom: 1px solid #ccc;
@@ -455,3 +440,38 @@ color:#0b5893;
  color:#007AFC;
  text-decoration: none;
 }
+
+
+img[alt$=">"] {
+  float: right;
+  margin-left: 40px;
+  margin-top: 0px;
+  margin-bottom: 10px;
+}
+
+img[src*="images"] {
+  border-radius: 5px;
+}
+
+img[src*="images"] {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+img[src*="images"]  {
+  box-shadow: 0 0 20px .2px grey;
+  }
+
+  @media screen and (min-width: 1200px) {
+
+    img[src*="images"] {
+        max-width: 300px;
+}}
+
+  @media screen and (max-width: 1200px) {
+
+          img[src*="images"] {
+              max-width: 240px;
+
+}}
