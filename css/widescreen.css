@@ -1,11 +1,5 @@
 @import 'fonts.css';
 
-body{
-   min-width:1000px;
-   width: auto !important;
-   width:1000px;
-}
-
 .hdsection {
       width: 100%;
       display: block;
@@ -13,7 +7,6 @@ body{
       height: 100px;
       padding-top: 10px;
       padding-bottom: 40px;
-
 }
 
 .sitelogo-field {
@@ -28,6 +21,7 @@ body{
   font-weight: 700;
   margin-left: 53px;
   padding-top: 10px;
+  padding-right: 25px;
 }
 
 .sitetitle a {
@@ -48,6 +42,7 @@ p {
   color: rgba(0, 0, 0, 0.8);
   line-height: 31px;
   font-size: 16px;
+  margin-right: 20px;
   }
 
 body h2 {
@@ -61,7 +56,6 @@ body h3 {
   font-family: 'Roboto Condensed';
   color: black;
 }
-
 
 p a {
   color: #007AFC;
@@ -107,7 +101,7 @@ color:#007AFC;
 }
 
 .post-content {
-  padding: 17px 60px 40px 20px;
+  padding: 17px 30px 40px 20px;
   margin-left: 36px;
 }
 
@@ -119,7 +113,6 @@ color:#007AFC;
   font-family: 'Roboto Condensed';
   font-weight: 400;
   font-size: 26px;
-
 }
 
 .post-title {
@@ -136,48 +129,6 @@ color:#007AFC;
    text-decoration: none;
   }
 
-
-.archive {
-  line-height: 30px;
-  padding: 18px 60px 40px 20px;
-  margin-left: 151px;
-}
-
-.archive a {
-   color: #007AFC;
-   text-decoration: none;
-  }
-
-.archive-page-title {
-  font-size: 1.4rem;
-  font-weight: 400;
-}
-
-.archive__group-year-header {
-  font-size: 1.3rem;
-  font-weight: 400;
-}
-
-.archive__group-month-header {
-    font-size: 1.3rem;
-    font-weight: 400;
-    color: grey;
-}
-
-.archive__post-title {
-    font-size: 1.4rem;
-    line-height: 40px;
-    font-weight: 400;
-}
-
-.archive__post-date {
-    font-size: .9rem;
-}
-
-.archive__post-read-time {
-    font-size: .8rem;
-}
-
 blockquote {
   width:90%;
   margin:20px auto;
@@ -185,6 +136,10 @@ blockquote {
   border-left:6px solid #e5e4e2;
   line-height:27px;
   position: relative;
+}
+
+.page-nav {
+  font-family: 'Open Sans';
 }
 
 .page-nav a {
@@ -341,7 +296,7 @@ text-decoration: none;
       -webkit-transform 0.15s ease;
   }
 
-  @media screen and (min-width: 767px) {
+  @media screen and (min-width: 150px) {
 
     .menu__btn {
       display: none;
@@ -360,7 +315,7 @@ text-decoration: none;
       transform: none;
     }
 
-  @media screen and (max-width: 767px) {
+  @media screen and (max-width: 150px) {
     .menu__item.menu__dropdown .drop-icon {
       position: absolute;
       right: 1rem;
@@ -382,7 +337,7 @@ text-decoration: none;
     }
   }
 
-  @media screen and (max-width: 620px) {
+  @media screen and (max-width: 220px) {
     .menu__item.menu__dropdown .drop-icon {
       position: absolute;
       right: 1rem;
@@ -403,14 +358,13 @@ text-decoration: none;
       max-width: 100%;
     }
   }
-
 
 table {
   font-family: 'Open Sans';
   font-size: 15px;
   border-collapse: collapse;
-  width: 70%;
-  min-width: 300px;
+  width: 60%;
+  line-height: 1.6rem;
 }
 
 td {
@@ -441,12 +395,12 @@ color:#0b5893;
  text-decoration: none;
 }
 
-
 img[alt$=">"] {
   float: right;
-  margin-left: 40px;
+  margin-left: 30px;
   margin-top: 0px;
   margin-bottom: 10px;
+  width: 35%
 }
 
 img[src*="images"] {
@@ -463,15 +417,14 @@ img[src*="images"]  {
   box-shadow: 0 0 20px .2px grey;
   }
 
-  @media screen and (min-width: 1200px) {
+  @media screen and (min-width: 350px) {
 
     img[src*="images"] {
         max-width: 300px;
 }}
 
-  @media screen and (max-width: 1200px) {
+  @media screen and (max-width: 360px) {
 
           img[src*="images"] {
               max-width: 240px;
-
 }}
